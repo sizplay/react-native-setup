@@ -38,4 +38,13 @@ sh install.sh
 - Zeplin
 
 
-## 이후 할일
+## 에러 발견 시
+### adoptopenjdk8 안될시
+```
+sudo softwareupdate --install-rosetta
+```
+동의 후
+```
+brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
+```
+로 다시 설치
