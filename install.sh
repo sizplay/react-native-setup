@@ -11,8 +11,6 @@ brew bundle --file=./Brewfile
 
 sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
 open /Applications/Google\ Chrome.app
-sudo xattr -dr com.apple.quarantine /Applications/Postman.app
-open /Applications/Postman.app
 sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
 open /Applications/iTerm.app
 sudo xattr -dr com.apple.quarantine /Applications/Notion.app
