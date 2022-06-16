@@ -16,24 +16,23 @@ sh install.sh
 
 ## 설치되는 개발 환경
 - iterm 2
-- D2Coding font
-- Meslo LG M Regular for Powerline (iterm2)
 - node
 - python
 - react-native
 - vscode
 - vscode settings
 - xcode
-- zsh oh-my-zsh
 - nvm
 - yarn
 - watchman
+- adoptopenjdk8
+- android studio
+- android-platform-tools
 
 ## 설치되는 앱
 - Chrome
 - Kakaotalk
 - Notion
-- Postman
 - Slack
 - Zeplin
 
