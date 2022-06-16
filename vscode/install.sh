@@ -5,8 +5,8 @@ brew install --cask visual-studio-code
 sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 
 # install vscode extensions
-code --install-extension apollo-graphql.apollo-graphql
-code --install-extension jun-han.auto-rename-tag
+code --install-extension apollographql.vscode-apollo
+code --install-extension formulahendry.auto-rename-tag
 code --install-extension aaron-bond.better-comments
 
 code --install-extension coenraads.bracket-pair-colorizer
