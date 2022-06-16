@@ -16,26 +16,34 @@ sh install.sh
 
 ## 설치되는 개발 환경
 - iterm 2
-- D2Coding font
-- Meslo LG M Regular for Powerline (iterm2)
 - node
 - python
 - react-native
 - vscode
 - vscode settings
 - xcode
-- zsh oh-my-zsh
 - nvm
 - yarn
 - watchman
+- adoptopenjdk8
+- android studio
+- android-platform-tools
 
 ## 설치되는 앱
 - Chrome
 - Kakaotalk
 - Notion
-- Postman
 - Slack
 - Zeplin
 
 
-## 이후 할일
+## 에러 발견 시
+### adoptopenjdk8 안될시
+```
+sudo softwareupdate --install-rosetta
+```
+동의 후
+```
+brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
+```
+로 다시 설치
