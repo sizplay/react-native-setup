@@ -5,7 +5,7 @@
 포멧 후 app store signin 하고
 github에서 repository에서
 ```
-git clone 
+git clone
 ```
 
 폴더에 들어가서 아래 커멘드 실행
@@ -47,3 +47,7 @@ sudo softwareupdate --install-rosetta
 brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
 ```
 로 다시 설치
+
+
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"

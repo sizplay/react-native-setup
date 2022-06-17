@@ -3,8 +3,11 @@
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile #에러시 ~/.zprofile의 디렉토리를 Users/유저아이디/.zprofile로 변경 후 수동 실행 그 이후 아래 라인 실행
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# adoptopenjdk8용으로 미리 실행
+sudo softwareupdate --install-rosetta
 
 # install via brew
 brew bundle --file=./Brewfile
