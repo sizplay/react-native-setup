@@ -47,7 +47,3 @@ sudo softwareupdate --install-rosetta
 brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
 ```
 로 다시 설치
-
-
- git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
